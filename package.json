@@ -1,0 +1,34 @@
+{
+  "name": "sql-map-easy",
+  "version": "1.0.0",
+  "description": "easy query sql with parameters ",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "keywords": [
+    "SQL Query",
+    "Easy SQL Query",
+    "Easy SQL",
+    "Easy SQL Mapper",
+    "sql",
+    "sql-map"
+  ],
+  "scripts": {
+    "test": "echo no test  :)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Crypt00o/easy-sql-map.git"
+  },
+  "author": "Eslam Mohamed Elabd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Crypt00o/easy-sql-map/issues"
+  },
+  "homepage": "https://github.com/Crypt00o/easy-sql-map#readme",
+  "dependencies": {
+    "typescript": "^4.8.2"
+  }
+}
