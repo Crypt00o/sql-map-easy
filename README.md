@@ -24,7 +24,7 @@ const phone = "01000000000";
 const password = "somepassword";
 const dateOfBirth = "2001-7-7";
 
-let sqlQuery=SqlMap.sqlParser("UPDATE TABLE Users SET email=$1, username=$4 , firstname=$2 , lastname=$3 , phone=$5 , password=$6 , date_of_birth=$7 WHERE username=$4 and email=$1 ; ",[email,firstname,lastname,username,phone,password,dateOfBirth])
+let sqlQuery=SqlMap.sqlParser("UPDATE Users SET email=$1, username=$4 , firstname=$2 , lastname=$3 , phone=$5 , password=$6 , date_of_birth=$7 WHERE username=$4 and email=$1 ; ",[email,firstname,lastname,username,phone,password,dateOfBirth])
 
 //sqlQuery now is "UPDATE Users SET email='example@example.com', username='eslam_mohamed' , firstname='eslam' , lastname='mohamed' , phone='01000000000' , password='somepassword' , date_of_birth='2001-7-7' WHERE username='eslam_mohamed' AND email='example@example.com' ;"
 
