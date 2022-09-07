@@ -14,7 +14,7 @@ SqlMap.sqlParser("Query $1 $2 $4 $3 $5",params_in_order[1,2,3,4,5]);
 
 ```
 
-const SqlMap = require("easy-sql-map");
+const SqlMap = require("sql-map-easy");
 
 const email= "example@example.com";
 const username = "eslam_mohamed";
