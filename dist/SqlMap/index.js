@@ -1,8 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.sqlParser = exports.sqlFilterAndPrepare = void 0;
-var sqlFilterAndPrepare_1 = require("./sqlFilterAndPrepare");
-Object.defineProperty(exports, "sqlFilterAndPrepare", { enumerable: true, get: function () { return sqlFilterAndPrepare_1.sqlFilterAndPrepare; } });
-var sqlParser_1 = require("./sqlParser");
-Object.defineProperty(exports, "sqlParser", { enumerable: true, get: function () { return sqlParser_1.sqlParser; } });
+exports.SqlMap = void 0;
+const sqlFilterAndPrepare_1 = require("./sqlFilterAndPrepare");
+const sqlParser_1 = require("./sqlParser");
+const SqlMap = { sqlParser: sqlParser_1.sqlParser, sqlFilterAndPrepare: sqlFilterAndPrepare_1.sqlFilterAndPrepare };
+exports.SqlMap = SqlMap;
+exports.default = { SqlMap };
 //# sourceMappingURL=index.js.map

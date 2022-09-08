@@ -1,1 +1,1 @@
-{"version":3,"file":"index.js","sourceRoot":"","sources":["../../src/SqlMap/index.ts"],"names":[],"mappings":";;;AAAA,6DAAwD;AAAjD,0HAAA,mBAAmB,OAAA;AAC1B,yCAAoC;AAA7B,sGAAA,SAAS,OAAA"}
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../src/SqlMap/index.ts"],"names":[],"mappings":";;;AAAA,+DAAyD;AACzD,2CAAoC;AACpC,MAAM,MAAM,GAAC,EAAC,SAAS,EAAC,qBAAS,EAAC,mBAAmB,EAAC,yCAAmB,EAAC,CAAA;AAClE,wBAAM;AACd,kBAAe,EAAC,MAAM,EAAC,CAAA"}
