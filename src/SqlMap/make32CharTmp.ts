@@ -8,3 +8,4 @@ function make32CharTmp():string {
    }
    return result.join('');
 }
+export{make32CharTmp}
