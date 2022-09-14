@@ -23,7 +23,7 @@ const sqlFilterAndPrepare = (row, tmp) => {
     else if (typeof row === 'undefined') {
         return null;
     }
-    else if (typeof row === 'number' && row === NaN) {
+    else if (typeof row === 'number' && isNaN(row)) {
         return null;
     }
     else {
