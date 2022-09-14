@@ -28,8 +28,7 @@
     "url": "https://github.com/Crypt00o/easy-sql-map/issues"
   },
   "homepage": "https://github.com/Crypt00o/easy-sql-map#readme",
-  "dependencies": {
-    "sql-map-easy": "^1.0.3",
+  "devDependencies": {
     "typescript": "^4.8.2"
   }
 }
