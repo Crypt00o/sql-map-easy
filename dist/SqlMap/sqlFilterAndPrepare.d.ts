@@ -1,2 +1,2 @@
-declare const sqlFilterAndPrepare: (row: any) => any;
+declare const sqlFilterAndPrepare: (row: any, tmp: string) => any;
 export { sqlFilterAndPrepare };
